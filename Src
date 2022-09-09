@@ -435,7 +435,7 @@ function Library:create(options)
 		Name = "Cozy",
 		Size = UDim2.fromOffset(600, 400),
 		Theme = self.Themes[settings.Theme],
-		Link = "https://cozyhub.com/vast/home"
+		Link = "https://cozyhub.com/vast"
 	}, options)
 
 	if getgenv and getgenv().MercuryUI then
